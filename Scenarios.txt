@@ -1,0 +1,24 @@
+
+1. Verify the Welcome page once the user hits the application url : https://blazedemo.com/
+2. Verify that if the welcome page is not displayed then the execution should stop
+3. Verify the different links present on the HomePage - "Travel The World", "home" and "destination of the week! The Beach!"
+5. Verify the  navigation from different links
+6. On trying to register the user after clicking on "home" link at the top menu bar, it throws 419 error code (Page Expired). Wherein it should naviagte to the home page. Similarly on trying to login, gives 419 code.
+7. Checking Remember Me functionality on Login screen. 
+8. Trying different combinations of user registration where the user doesnot enter mandatory fields and then trying to login with the registered user. 
+9. On providing the invalid inputs for departure and destination city, the execution should stop
+10. Validating data displayed in the dropdowns should match what we have in the DB dedicated for this application
+11. Verify the default selection of the dropdown values for departure and destination city
+12. Verify the Reserve page displayed after selection of the cities - verify title and headers with departure and destination cities. Else stop the execution.
+13. Verify the back browser functionality navigating between diferent pages and editing the details and then verifying after navigating back and forth and if the data is retained or lost.
+14. Verify that you Choose the flight based on the price provided by the user. (Selection should be done based on lowest price)
+15. Veriffy that based on the flight chosen, the Purchase Flight page should have all the details (Airline, Flight number, Price)
+16. Verify the remember Me functionality. - If Remember Me is selected, then on the details should be remembered if the user logins with the same details. Else the fields should be empty
+17. Verify that all the different types of payment methods work fine.
+18. Verify that Purchase success header is displayed after the successful payment
+19. Verify THE CONFIRMATION id and the user should also receive a confirmation email after booking
+20. The application performance based on the user count hitting the site.
+
+
+Note :  We could have scenarios related to sorting, searching, 2-step authentication, cache
+		
